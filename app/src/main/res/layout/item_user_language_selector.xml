@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:background="?myTheme_list_itemBackground">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6">
+            <net.ekhdemni.presentation.ui.views.Select
+                android:id="@+id/langSpinner"
+                android:layout_margin="2dp"
+                android:background="?myThemeAccent"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4">
+        <net.ekhdemni.presentation.ui.views.Select
+            android:id="@+id/langLevelSpinner"
+            android:layout_margin="2dp"
+            android:background="?myThemeAccent"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="0.7" />
+        <ImageButton
+            android:id="@+id/addLang"
+            android:padding="5dp"
+            android:tint="?myTheme_button_primary_background"
+            android:background="?myTheme_button_transparent_background"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_width="40dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    </LinearLayout>

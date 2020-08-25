@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="myThemePrimary" format="reference" />
+    <attr name="myThemePrimaryDark" format="reference" />
+    <attr name="myThemeAccent" format="reference" />
+
+    <attr name="myTheme_textColor" format="reference" />
+
+    <attr name="myThemeBackground" format="reference" />
+    <attr name="myThemeBackgroundSecondary" format="reference" />
+    <attr name="myThemeBackgroundColored" format="reference" />
+    <attr name="myTheme_toolbar_background" format="reference"/>
+    <attr name="myTheme_toolbar_border_color" format="reference"/>
+    <attr name="myTheme_toolbar_icon_color" format="reference"/>
+    <attr name="myTheme_toolbar_icon_secondary_color" format="reference"/>
+    <attr name="myTheme_searchView_background" format="reference"/>
+
+    <attr name="myTheme_widget_background" format="reference"/>
+    <attr name="myTheme_widget_border_color" format="reference"/>
+    <attr name="myTheme_widget_icon_color" format="reference"/>
+    <attr name="myTheme_widget_list_background" format="reference"/>
+
+
+
+    <attr name="myTheme_navigationViewBottom_background" format="reference"/>
+    <attr name="myTheme_navigationView_background" format="reference"/>
+    <attr name="myTheme_navigationView_icon_color" format="reference"/>
+    <attr name="myTheme_navigationView_text_color" format="reference"/>
+    <attr name="myTheme_navigationView_header_text" format="reference"/>
+    <attr name="myTheme_navigationView_header_icon_color" format="reference"/>
+
+    <attr name="myTheme_list_itemBackground" format="reference|color" />
+    <attr name="myTheme_list_itemTitleColor" format="reference" />
+    <attr name="myTheme_list_itemTitleColorInverse" format="reference" />
+    <attr name="myTheme_list_itemDescriptionColor" format="reference" />
+    <attr name="myTheme_list_itemDateColor" format="reference" />
+    <attr name="myTheme_list_itemDateSecondColor" format="reference" />
+    <attr name="myTheme_list_itemButtonColor" format="reference" />
+    <attr name="myTheme_list_divider" format="reference"/>
+    <attr name="myTheme_card_border" format="reference"/>
+
+    <attr name="myThemeToolbarContainerBackground" format="reference" />
+
+
+    <attr name="myThemePlaceholderBackground" format="reference" />
+    <attr name="myThemePlaceholderBackgroundRounded" format="reference" />
+
+
+    <attr name="myThemeFragmentPadding" format="reference" />
+
+
+    <attr name="myTheme_message_sent_text_background" format="reference"/>
+    <attr name="myTheme_online" format="reference"/>
+    <attr name="myTheme_solution" format="reference"/>
+    <attr name="myTheme_link_color" format="reference"/>
+
+
+    <attr name="myTheme_profile_background" format="reference"/>
+    <attr name="myTheme_profile_picture_background" format="reference"/>
+    <attr name="myTheme_profile_more_button_color" format="reference"/>
+    <attr name="myTheme_list_item_info_icon_color" format="reference"/>
+    <attr name="myTheme_icon_color" format="reference"/>
+
+
+    <attr name="myTheme_work_bar_background" format="reference"/>
+
+    <attr name="myTheme_text_error" format="reference"/>
+    <attr name="myTheme_text_important" format="reference"/>
+    <attr name="myTheme_text_secondary" format="reference"/>
+
+    <attr name="myTheme_spinner_background" format="reference"/>
+
+    <attr name="myTheme_button_primary_background" format="reference"/>
+    <attr name="myTheme_button_info_background" format="reference"/>
+    <attr name="myTheme_button_success_background" format="reference"/>
+    <attr name="myTheme_button_secondary_background" format="reference"/>
+    <attr name="myTheme_button_transparent_background" format="reference"/>
+    <attr name="myTheme_button_primary_text_color" format="reference"/>
+    <attr name="myTheme_button_secondary_text_color" format="reference"/>
+    <attr name="myTheme_button_transparent_text_color" format="reference"/>
+
+    <attr name="myTheme_card_details_background" format="reference"/>
+
+    <attr name="myTheme_senderView_background" format="reference"/>
+
+    <attr name="myTheme_head_text_background" format="reference"/>
+    <attr name="myTheme_head_text_color" format="reference"/>
+
+</resources>

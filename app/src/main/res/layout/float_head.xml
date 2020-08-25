@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/chathead_relativelayout"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/chathead_img"
+        android:src="@drawable/logo_circle"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chathead_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/chathead_img"
+        android:background="@drawable/headview_counter"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="1"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+   
+
+</RelativeLayout>

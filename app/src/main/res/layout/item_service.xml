@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        card_view:cardBackgroundColor="?myTheme_list_itemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:src="@drawable/logo_circle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_cover_height"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/title"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/thumbnail"
+                android:paddingTop="@dimen/album_title_padding"
+                android:textSize="@dimen/album_title"
+                android:textAlignment="center"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/description"
+                android:text="@string/slogon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/title"
+                android:paddingTop="8dp"
+                android:textSize="13sp"
+                android:textAlignment="center"
+                android:gravity="center" />
+
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_width"
+                android:layout_below="@+id/thumbnail"
+                android:paddingRight="@dimen/album_title_padding"
+                android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_dots" />
+
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/thumbnail"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/thumbnail"
+                android:background="@drawable/headview_counter"
+                android:padding="4dp"
+                android:text="+9"
+                android:layout_margin="1dp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+
+            <View
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:id="@+id/online"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/thumbnail"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/thumbnail"
+                android:background="@drawable/online"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp" />
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>

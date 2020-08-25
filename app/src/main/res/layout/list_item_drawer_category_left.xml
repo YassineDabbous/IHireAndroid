@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:tint="?myTheme_navigationView_icon_color"
+        android:id="@+id/drawer_list_item_icon"
+        android:src="@drawable/menu"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:textColor="?myTheme_navigationView_text_color"
+        android:id="@+id/drawer_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        tools:text="Just arrived"/>
+
+    <TextView
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@drawable/rounded_corners_full"
+        android:id="@+id/drawer_list_item_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        tools:text="128"/>
+
+</LinearLayout>

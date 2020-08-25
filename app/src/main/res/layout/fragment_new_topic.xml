@@ -1,0 +1,66 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.fragments.NewTopicFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        tools:context=".presentation.ui.fragments.NewTopicFragment">
+
+        <EditText
+            android:id="@+id/title"
+            android:hint="عنوان الموضوع"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_size_add_post"
+            android:inputType="text"
+            android:background="@drawable/bg_edit_text"
+            android:layout_margin="@dimen/margin_recyler"
+            android:padding="@dimen/margin_recyler"/>
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/description"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="250dp"
+            android:hint="نص الموضوع"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/text_size_add_post"
+            android:background="@drawable/bg_edit_text"
+            android:layout_margin="@dimen/margin_recyler"
+            android:padding="@dimen/margin_recyler"/>
+
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/picture"
+            app:srcCompat="@drawable/image_area"
+            android:tint="?myThemePlaceholderBackground"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/rectangle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:background="@drawable/rectangle"
+            android:textColor="?myThemePrimary"
+            android:id="@+id/send"
+            android:text="إضافة الموضوع"
+            android:layout_below="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

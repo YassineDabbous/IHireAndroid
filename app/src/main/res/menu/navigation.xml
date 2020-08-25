@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/network"
+        android:icon="@drawable/discussion"
+        android:title="@string/menu_item_1" />
+
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/ic_whatshot"
+        android:title="@string/menu_item_4" />
+
+    <item
+        android:id="@+id/resources"
+        android:icon="@drawable/ic_assignment"
+        android:title="@string/menu_item_2" />
+
+    <item
+        android:id="@+id/services"
+        android:icon="@drawable/ic_style"
+        android:title="@string/menu_item_5" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/account_settings_variant"
+        android:title="@string/menu_item_3" />
+</menu>

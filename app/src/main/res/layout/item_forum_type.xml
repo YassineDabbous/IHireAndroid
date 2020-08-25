@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?myTheme_list_itemBackground"
+    android:padding="8dp" >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/more"
+        android:text="@string/more"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="70dp"
+        android:layout_height="35dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizontal"
+        android:layout_below="@+id/name"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"
+        tools:context=".presentation.ui.fragments.ForumsFragment"
+        tools:listitem="@layout/item_circle" />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/looking"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

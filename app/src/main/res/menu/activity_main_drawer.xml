@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:gravity="right"
+    android:layoutDirection="rtl"
+    android:layout_gravity="right">
+
+
+    <group android:checkableBehavior="single"
+        android:layout_gravity="right"
+        android:gravity="right">
+
+
+        <item
+            android:id="@+id/resources"
+            android:icon="@drawable/ic_assignment"
+            android:title="@string/menu_item_2" />
+
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_style"
+            android:title="@string/menu_item_5" />
+
+        <item
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:id="@+id/all"
+            android:icon="@drawable/ic_style"
+            android:title="@string/posts_list" />
+
+        <item
+            android:id="@+id/categories"
+            android:icon="@drawable/ic_dns"
+            android:title="@string/tags" />
+
+
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/ic_loyalty"
+            android:title="@string/bookmarks" />
+        <item
+            android:id="@+id/unread"
+            android:icon="@drawable/ic_assignment"
+            android:title="@string/not_readed" />
+
+
+        <item
+            android:id="@+id/my_activities"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/my_activities" />
+
+        <item
+            android:id="@+id/countries"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/countries" />
+
+
+        <item
+            android:id="@+id/alerts"
+            android:icon="@drawable/alert_octagon"
+            android:title="@string/alerts" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/apps"
+            android:icon="@drawable/android_studio"
+            android:title="@string/useful_apps" />
+
+        <item
+            android:id="@+id/languages"
+            android:icon="@drawable/flag"
+            android:title="@string/languages" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="@string/action_settings" />
+
+    </group>
+
+    <item android:title="@string/contact_info">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"
+                android:title="@string/our_facebook_page"/>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_white_24dp"
+                android:title="@string/share_app" />
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@android:drawable/btn_star"
+                android:title="@string/rate_app" />
+
+            <item
+                android:id="@+id/privacy"
+                android:icon="@android:drawable/ic_secure"
+                android:title="@string/privacy_policy"/>
+        </menu>
+    </item>
+
+</menu>

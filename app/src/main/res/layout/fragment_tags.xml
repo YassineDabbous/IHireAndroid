@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.fragments.TagsFragment"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginRight="@dimen/padd_10"
+        android:layout_marginLeft="@dimen/padd_10"
+        android:hint="@string/search_category"
+        android:focusedByDefault="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/tag_multiple"
+        android:drawableTint="?myThemePrimary"
+        android:focusableInTouchMode="true"
+        android:layout_alignRight="@+id/tags_laoyut"
+        android:layout_alignEnd="@+id/tags_laoyut"
+        android:layout_alignLeft="@+id/tags_laoyut"
+        android:layout_alignStart="@+id/tags_laoyut" />
+
+    <ScrollView
+        android:id="@+id/tags_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:visibility="visible"
+        android:layout_below="@+id/editText">
+
+        <net.ekhdemni.presentation.ui.views.tagview.TagView
+            xmlns:tagview="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tag_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            tagview:lineMargin="5dp"
+            tagview:tagMargin="5dp"
+            tagview:textPaddingLeft="8dp"
+            tagview:textPaddingTop="5dp"
+            tagview:textPaddingRight="8dp"
+            tagview:textPaddingBottom="5dp" />
+
+    </ScrollView>
+
+
+</LinearLayout>

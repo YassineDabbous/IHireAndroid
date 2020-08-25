@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation|screenSize"
+    tools:context=".presentation.ui.fragments.ArticleFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:id="@+id/smartView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <tn.core.presentation.extensions.NestedWebView
+                android:id="@+id/webView"
+                android:configChanges="orientation|screenSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:scrollbars="none"
+        android:visibility="visible"
+        android:id="@+id/nativeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/viewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#000000">
+
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:id="@+id/resourceLogo"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    />
+                <TextView
+                    android:id="@+id/resourceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Ekhdemni.tn"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/verified"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="6dp"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="2 jours"
+                    android:padding="8dp"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+
+
+
+            </LinearLayout>
+
+
+
+            <!--
+            -->
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="@dimen/padd_10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/viewHeader"
+                android:contentDescription="ss"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="2dp"
+                android:layout_below="@+id/photo"
+                android:text="British Council need new pencils:"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/normalDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_below="@+id/title"
+                android:text="Mon, 12 02 2018"
+                android:textColor="#90949c"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/messagePart1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/normalDate"
+                android:text="We connect people with learning opportunities and creative ideas from the UK."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16sp" />
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/bannerInArticle"
+                android:layout_below="@+id/messagePart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                ads:adUnitId="@string/admob_banner"/>
+
+            <TextView
+                android:id="@+id/messagePart2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bannerInArticle"
+                android:text="We connect people with learning opportunities and creative ideas from the UK. Whether you want to learn or teach English"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/appBanner"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/messagePart2"
+                />
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_share_white_24dp"
+        android:tint="#FFFFFF"
+        app:backgroundTint="?myThemePrimary"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabComments"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_speaker_notes_white_24dp"
+        android:tint="#FFFFFF"
+        app:backgroundTint="?myThemePrimary"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:borderWidth="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>

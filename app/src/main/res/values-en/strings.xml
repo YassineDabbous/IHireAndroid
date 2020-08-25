@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ads -->
+    <string name="app_name">Ekhdemni</string>
+    <string name="slogon">Jobs are looking for you !</string>
+
+    <string name="menu_item_1">Network</string>
+    <string name="menu_item_4">News</string>
+    <string name="menu_item_2">Sources</string>
+    <string name="menu_item_3">Profile</string>
+    <string name="menu_item_5">Services</string>
+
+    <string name="nativeView">Normal browser</string>
+    <string name="smartView">Web browser</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="article_links">File links</string>
+    <string name="fullscreen">Maximize the screen</string>
+
+
+    <string name="feed_title">Address</string>
+    <string name="website_or_feed">(Name or URL)</string>
+    <string name="feed_url">URL source</string>
+    <string name="optional">(optional)</string>
+    <string name="feed_search">Search for source</string>
+    <string name="feed_save">Add as a source</string>
+
+
+    <string name="error">Error</string>
+    <string name="no_result">No results found</string>
+
+    <string name="descriptionEmptyResult">This place seems to be empty! Have you lost the way?</string>
+
+    <string name="via_application">Through Ekhdemni application</string>
+    <string name="services_header">Ekhdemni Services</string>
+
+    <string name="empty">This section is empty</string>
+    <string name="no_messages">No messages between you, be proactive!</string>
+    <string name="no_services_for_country">We do not currently have services for your country, please refresh the page later.</string>
+
+    <string name="services_description">Because professionnalisme seeks to serve you</string>
+    <string name="refresh">Update</string>
+    <string name="enable_resource">Source activated</string>
+    <string name="disable_resource">Source disabled</string>
+    <string name="enable_notification_resource">Notifications have been activated</string>
+    <string name="disable_notification_resource">Notifications disabled</string>
+    <string name="are_you_sure">are you sure?</string>
+    <string name="use_shaking_next_time">You can shake your phone to update next time</string>
+    <string name="network_error">A communication error occurred</string>
+    <string name="network_settings">Connection Settings</string>
+    <string name="next">Next</string>
+    <string name="exit">Exit</string>
+    <string name="jobs">Jobs</string>
+    <string name="profiles">Members</string>
+    <string name="works">Gallery</string>
+    <string name="coffee">Coffee</string>
+    <string name="conversations">Talks</string>
+    <string name="create_job">Post a job</string>
+
+    <string name="useful_apps">Useful applications</string>
+    <string name="posts_number">Number of posts</string>
+    <string name="countries">Countries</string>
+    <string name="bookmarks">Favorites</string>
+    <string name="all">All ads</string>
+    <string name="sum">Total ads</string>
+    <string name="my_activities">My activity</string>
+    <string name="help">Help</string>
+    <string name="wait">wait...</string>
+    <string name="authentication">authentication</string>
+    <string name="posts_list">General Menu</string>
+    <string name="tags">Categories</string>
+    <string name="new_opportunity">opportunity</string>
+    <string name="search">Search</string>
+    <string name="check_network">No data connection! Check the network.</string>
+    <string name="copy_url">Copy link address</string>
+    <string name="our_facebook_page">Our facebook page</string>
+    <string name="shareUrl">Share link</string>
+    <string name="shareScreen">Share article</string>
+    <string name="share_via">Share via</string>
+    <string name="shared_via">Shared via </string>
+    <string name="url_copied">Link copied</string>
+    <string name="connect_him">Message him</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">unfollow</string>
+    <string name="want_apply_for">Want to apply for the job?</string>
+
+    <string name="autoscroll">Automatic browse</string>
+    <string name="stopAutoScroll">Turn off automatic browsing</string>
+    <string name="font_size">font size</string>
+    <string name="font">Font type</string>
+    <string name="pick_one">choose one</string>
+
+
+
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Refuse</string>
+
+    <string name="skip">Ignore</string>
+    <string name="start">Start</string>
+
+    <string name="slide_1_desc">Jobs, companies, experiences and creative works</string>
+    <string name="slide_2_title">Your profile</string>
+    <string name="slide_2_desc">The easiest way to prepare your CV</string>
+    <string name="slide_3_title">Various professional sources</string>
+    <string name="slide_3_desc">Choose what suits you and in which country you want</string>
+    <string name="slide_4_title">Smart Services</string>
+    <string name="slide_4_desc">All that helps you on your way towards work</string>
+
+
+    <string name="pref_fonts_type">Font type</string>
+    <string name="title_fonts_type">Font type</string>
+    <string name="summary_fonts_type">Select the font type</string>
+
+    <string name="pref_fonts_size">font size</string>
+    <string name="title_fonts_size">font size</string>
+    <string name="summary_fonts_size">Select the font size</string>
+
+    <string name="pref_title_ringtone">Tone</string>
+    <string name="pref_ringtone_silent">silent</string>
+
+    <string name="default_gallery_storage_path">/ekhdemni</string>
+    <string name="default_gallery_storage">Uploaded files</string>
+    <string name="title_auto_upload">Auto Update</string>
+    <string name="summary_upload_over_wifi">Challenge data when WIFI is only available</string>
+
+    <string name="title_notifications_delay">Update periods</string>
+    <string name="summary_notifications_delay">Select the time period after each update</string>
+
+    <string name="pref_title_notifications">Alerts</string>
+    <string name="pref_title_general">Public</string>
+    <string name="summary_choose_ringtone">Select alarm tone</string>
+    <string name="pref_header_about">who are we</string>
+    <string name="pref_header_font">Font</string>
+    <string name="summary_about">About us</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Do you have any questions? We are happy to help!</string>
+    <string name="title_send_feedback">Send your feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">http://web.ekhdemni.net/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://ekhdemni.net/privacy-policy/</string>
+    <string name="title_terms">Terms and Conditions</string>
+    <string name="url_terms">http://web.ekhdemni.net/terms-of-service/</string>
+    <string name="title_version">Release</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Place of storage</string>
+    <string name="title_notification_enable">Activate alerts</string>
+    <string name="title_vibrate">Vibrations</string>
+    <string name="summary_vibrate">Shake when alerts arrive</string>
+
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_notifications_delay">key_notifications_delay</string>
+    <string name="key_notifications_enable">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_font_type">key_font_type</string>
+    <string name="key_font_size">key_font_size</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="min_experience">Years of experience required</string>
+
+    <string name="both">both of them</string>
+    <string name="male">Male</string>
+    <string name="female">female</string>
+    <string name="permis">driving license</string>
+    <string name="has_permis">He has a driving license</string>
+    <string name="military">Military service</string>
+    <string name="pass_military">He did the military service</string>
+    <string name="salary">Income</string>
+    <string name="min_salary">Lowest salary estimate</string>
+    <string name="max_salary">Maximum salary estimate</string>
+    <string name="required_skill">Required skill</string>
+    <string name="add_skill">Add another skill</string>
+
+    <string name="action_sign_in_short">Create an account</string>
+    <string name="email">E-mail</string>
+    <string name="enter_your_name">Please enter your full name</string>
+    <string name="validate_email">Check your email</string>
+    <string name="minimum_password">The password is too short, minimum 6 characters!</string>
+    <string name="auth_failed">Failed to connect, please make sure your email or password!</string>
+    <string name="need_auth">You must login first</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full name</string>
+    <string name="btn_login">Entry</string>
+    <string name="btn_link_to_register">Not a member? Create your account here!</string>
+    <string name="btn_link_to_login">I have an account. I want to sign in!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset password</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_send">send</string>
+    <string name="lbl_forgot_password">did you forget your password?</string>
+    <string name="forgot_password_msg">We only need your registered email ID to send your password reset instructions.</string>
+
+
+
+
+    <string name="please_choose">please choose</string>
+    <string name="choose_photo">Choose a picture</string>
+    <string name="capture_photo">take a picture</string>
+
+
+
+    <string name="about_job">About this offer</string>
+    <string name="details">Job Description</string>
+    <string name="work_system">Work System</string>
+    <string name="function">Function</string>
+    <string name="workfield">Employment sector</string>
+    <string name="degree">Degree</string>
+    <string name="gender">Type</string>
+    <string name="business">Recruiter</string>
+    <string name="choose_country">Please select your country</string>
+    <string name="choose_category">Choose category</string>
+    <string name="choose_speciality">Choose your specialty</string>
+    <string name="choose_work_type">Select the work system</string>
+    <string name="choose_degree">Select the grade</string>
+    <string name="choose_language">Select a language</string>
+    <string name="choose_language_level">Select language level</string>
+    <string name="write_comment">Add a comment</string>
+    <string name="write_message">Write your message</string>
+    <string name="search_category">Search for Category ...</string>
+    <string name="about">About</string>
+    <string name="address_and_contact">Address and contact</string>
+    <string name="education">Education</string>
+    <string name="university">the University</string>
+    <string name="school">Institute</string>
+    <string name="speciality">Jurisdiction</string>
+    <string name="graduation">Graduation Year</string>
+    <string name="more">More</string>
+    <string name="more_informations">additional information</string>
+    <string name="desired_salary">Salary required</string>
+    <string name="languages">Languages</string>
+    <string name="relation">Relationship</string>
+    <string name="relations">Relations</string>
+    <string name="posts">Posts</string>
+
+
+    <string name="general_info">General information</string>
+    <string name="contact_info">contact information</string>
+    <string name="address">Address</string>
+    <string name="birthday">Date of Birth</string>
+    <string name="phone">the phone</string>
+    <string name="website">website</string>
+    <string name="skills">Skills</string>
+    <string name="desired_job">Desired Job</string>
+    <string name="experience">Experience</string>
+
+    <string name="add_work">Add a new work</string>
+
+    <string name="like">like</string>
+    <string name="liked">unlike</string>
+
+
+    <string name="block">Ban</string>
+
+
+    <string name="uploading_pictures">Uploading pictures</string>
+    <string name="saving_work">Saving work</string>
+    <string name="solution">Set as best comment</string>
+    <string name="report">Report Abuse</string>
+    <string name="report_cause">Reporting reason (optional)</string>
+    <string name="max_photos">You can not add more than four photos</string>
+    <string name="min_photos">Add one picture at least</string>
+    <string name="contains">contains</string>
+    <string name="jobs_offer">jobs offer</string>
+    <string name="not_readed">not readed</string>
+    <string name="share_app">Share application</string>
+    <string name="rate_app">Evaluate this app</string>
+    <string name="pref_languages">Language</string>
+    <string name="summary_languages">Choose application language</string>
+    <string name="key_languages">key_languages</string>
+
+
+    <string name="choose_forum_first">Choose post topic first</string>
+    <string name="slide_1_title">Employment Network</string>
+    <string name="showcase_coffee">To answer all your questions</string>
+    <string name="showcase_coffee_plus">A forum for discussions and important topics among all members</string>
+    <string name="showcase_source_options">By dragging the source to the left you can delete, activate and stop it or disable its  alerts</string>
+    <string name="showcase_works">You can add photos to your previous works</string>
+    <string name="showcase_works_plus">Adding your work here enables you to demonstrate your expertise and skills and enhance the opportunities for employers to communicate with you</string>
+    <string name="update_profile">Update profile</string>
+    <string name="error_images_upload_failed">Failed to upload some photos, would you like to try again?</string>
+    <string name="error_request_failed">"Failed to connect, do you want to try again? "</string>
+
+
+    <string name="more_comments">More comments</string>
+    <string name="alerts">Alerts</string>
+    <string name="followers">Followers</string>
+    <string name="be_the_first">Be the first</string>
+    <string name="position_or_specialization">position or specialization</string>
+    <string name="not_ended_yet">not ended yet</string>
+    <string name="ended_at">ended at</string>
+    <string name="company">Company</string>
+    <string name="city">City</string>
+    <string name="url">Url</string>
+    <string name="started_at">Started at</string>
+    <string name="country">Country</string>
+    <string name="resume">Resume</string>
+    <string name="add_experience">Add Experience</string>
+    <string name="projects">Projects</string>
+    <string name="tools">Tools</string>
+    <string name="budget">Budget</string>
+</resources>

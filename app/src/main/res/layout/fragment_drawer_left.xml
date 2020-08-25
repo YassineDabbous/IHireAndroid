@@ -1,0 +1,28 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="?myTheme_navigationView_background"
+    android:clickable="true">
+    <RelativeLayout
+        android:focusableInTouchMode="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/nav_header_main"/>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/h"
+            android:id="@+id/drawer_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/list_item_drawer_category_left"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "611943402383",
+    "firebase_url": "https://ekhdemni-net.firebaseio.com",
+    "project_id": "ekhdemni-net",
+    "storage_bucket": "ekhdemni-net.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611943402383:android:65b3d0585c2595cc",
+        "android_client_info": {
+          "package_name": "net.ekhdemni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611943402383-08g027cr7hjpb6ta8omdtt0osc4lr81o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVhViFWcWkn9qmOutiRUf0hPl8y3kwTyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-5084130404881659~7972379354"
+    }
+  ],
+  "configuration_version": "1"
+}

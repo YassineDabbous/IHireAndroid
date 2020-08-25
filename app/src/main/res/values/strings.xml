@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ads -->
+    <string name="admob_initialize" translatable="false">ca-app-pub-5084130404881659~7972379354</string>
+    <string name="admob_banner" translatable="false">ca-app-pub-5084130404881659/6125994306</string>
+
+    <string name="app_name">Ekhdemni</string>
+    <string name="slogon">أَنْ تَبْحَثَ عَنْكَ الوَظِيفَة !</string>
+
+    <string name="menu_item_1">الشبكة</string>
+    <string name="menu_item_4">الأخبار</string>
+    <string name="menu_item_2">المصادر</string>
+    <string name="menu_item_3">ملفي</string>
+    <string name="menu_item_5">الخدمات</string>
+
+    <string name="nativeView">المستعرض العادي</string>
+    <string name="smartView">مستعرض الويب</string>
+
+    <string name="action_settings">الإعدادات</string>
+    <string name="article_links">روابط ملفات</string>
+    <string name="fullscreen">تكبير الشاشة</string>
+
+
+    <string name="feed_title">العنوان</string>
+    <string name="website_or_feed">(الاسم او رابط الموقع)</string>
+    <string name="feed_url">رابط المصدر</string>
+    <string name="optional">(إختياري)</string>
+    <string name="feed_search">بحث عن مصادر</string>
+    <string name="feed_save">إضافة كمصدر</string>
+
+
+    <string name="error_images_upload_failed">فشلت عملية رفع بعض الصور، هل تريد إعادة المحاولة؟</string>
+    <string name="error_request_failed">فشل في الإتصال، هل تريد إعادة المحاولة؟</string>
+    <string name="error">خطأ</string>
+    <string name="no_result">لا توجد نتائج</string>
+
+    <string name="descriptionEmptyResult">يبدو أن المكان خال! هل أضعت الطريق ؟</string>
+
+    <string name="via_application">عبر تطبيق إِخْدِمْنِي</string>
+    <string name="services_header">خَدَمَات إِخْدِمْنِي</string>
+
+    <string name="empty">هذا القسم فارغ</string>
+    <string name="no_messages">لا توجد رسائل بينكما، كن مبادرا!</string>
+    <string name="no_services_for_country">لا تتوفر لدينا خدمات خاصة بدولتك حاليا, قم بتحديث الصفحة في وقت لاحق.</string>
+
+    <string name="services_description">لإن الحرفية تسعى لخدمتكم</string>
+    <string name="refresh">تحديث</string>
+    <string name="enable_resource">تم تفعيل المصدر</string>
+    <string name="disable_resource">تم تعطيل المصدر</string>
+    <string name="enable_notification_resource">تم تفعيل تنبيهات</string>
+    <string name="disable_notification_resource">تم تعطيل تنبيهات</string>
+    <string name="are_you_sure">هل أنت متأكد؟</string>
+    <string name="use_shaking_next_time">يمكنك هز الهاتف للتحديث في المرة القادمة</string>
+    <string name="network_error">حدث خطأ في الإتصال</string>
+    <string name="network_settings">إعدادات الإتصال</string>
+    <string name="next">التالي</string>
+    <string name="exit">خروج</string>
+    <string name="jobs">وظائف</string>
+    <string name="profiles">الأعضاء</string>
+    <string name="works">الأعمال</string>
+    <string name="projects">مشاريع</string>
+    <string name="coffee">المقهى</string>
+    <string name="conversations">المحادثات</string>
+    <string name="create_job">إعلان  وظيفة</string>
+
+    <string name="alerts">التنبيهات</string>
+    <string name="useful_apps">تطبيقات مفيدة</string>
+    <string name="posts_number">عدد المناظرات</string>
+    <string name="countries">الدول</string>
+    <string name="bookmarks">المفضلة</string>
+    <string name="all">جميع الاعلانات</string>
+    <string name="sum">مجموع الإعلانات</string>
+    <string name="my_activities">نشاطي</string>
+    <string name="help">المساعدة</string>
+    <string name="wait">إنتظر...</string>
+    <string name="authentication">التوثيق</string>
+    <string name="posts_list">القائمة العامة</string>
+    <string name="tags">الأقسام</string>
+    <string name="new_opportunity">فرصة جديدة</string>
+    <string name="search">بحث</string>
+    <string name="check_network">لا يوجد إتصال بالبيانات ! تحقق من الشبكة.</string>
+    <string name="copy_url">إنسخ الرابط</string>
+    <string name="our_facebook_page">صفحتنا على الفيسبوك</string>
+    <string name="shareUrl">شارك الرابط</string>
+    <string name="shareScreen">شارك المقال</string>
+    <string name="share_via">شارك عبر</string>
+    <string name="shared_via">نشر عبر تطبيق </string>
+    <string name="url_copied">تم نسخ الرابط</string>
+    <string name="connect_him">إتصل به</string>
+    <string name="follow">متابعة</string>
+    <string name="unfollow">إلغاء المتابعة</string>
+    <string name="followers">متابعون</string>
+    <string name="be_the_first">كن الأول</string>
+    <string name="want_apply_for">تريد التقدم للوظيفة؟</string>
+
+    <string name="autoscroll">تصفح تلقائي</string>
+    <string name="stopAutoScroll">إيقاف التصفح تلقائي</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="font">نوع الخط</string>
+    <string name="pick_one">إختر واحدة</string>
+
+
+
+    <string name="delete">مسح</string>
+    <string name="save">حفظ</string>
+    <string name="update_profile">تعديل الملف</string>
+    <string name="resume">السيرة الذاتية</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رفض</string>
+
+
+    <string name="pref_languages">لغة التطبيق</string>
+    <string name="summary_languages">إختر لغة التطبيق</string>
+
+
+    <string name="pref_fonts_type">نوع الخط</string>
+    <string name="title_fonts_type">نوع الخط</string>
+    <string name="summary_fonts_type">إختر نوع الخط</string>
+
+    <string name="pref_fonts_size">حجم الخط</string>
+    <string name="title_fonts_size">حجم الخط</string>
+    <string name="summary_fonts_size">إختر حجم الخط</string>
+
+    <string name="pref_title_ringtone">النغمة</string>
+    <string name="pref_ringtone_silent">صامت</string>
+
+    <string name="default_gallery_storage_path">/ekhdemni</string>
+    <string name="default_gallery_storage">الملفات المحملة</string>
+    <string name="title_auto_upload">تحديث تلقائي</string>
+    <string name="summary_upload_over_wifi">تحدي البيانات عندما يكون الWIFI متاح فقط</string>
+
+    <string name="title_notifications_delay">فترات التحديث</string>
+    <string name="summary_notifications_delay">حدد الفترة الزمنية المنتظرة بعد كل تحديث</string>
+
+    <string name="pref_title_notifications">التنبيهات</string>
+    <string name="pref_title_general">العامة</string>
+    <string name="summary_choose_ringtone">إختر نغمة التنبيه</string>
+    <string name="pref_header_about">من نحن</string>
+    <string name="pref_header_font">الخط</string>
+    <string name="summary_about">من نحن ؟</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">هل لديك أي استفسارات؟ ونحن سعداء للمساعدة!</string>
+    <string name="title_send_feedback">ارسل رأيك</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">عرض الأسئلة المتداولة</string>
+    <string name="url_faq">http://web.ekhdemni.net/privacy-policy/</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="url_privacy">http://ekhdemni.net/privacy-policy/</string>
+    <string name="title_terms">الشروط و الأحكام</string>
+    <string name="url_terms">http://web.ekhdemni.net/terms-of-service/</string>
+    <string name="title_version">الإصدار</string>
+    <string name="choose_email_client">اختر برنامج البريد الإلكتروني</string>
+    <string name="title_gallery_storage">مكان التخزين</string>
+    <string name="title_notification_enable">تفعيل التنبيهات</string>
+    <string name="title_vibrate">الإهتزاز</string>
+    <string name="summary_vibrate">الهز عند وصول تنبيهات</string>
+
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_notifications_delay">key_notifications_delay</string>
+    <string name="key_notifications_enable">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_languages">key_languages</string>
+    <string name="key_font_type">key_font_type</string>
+    <string name="key_font_size">key_font_size</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="min_experience">سنوات الخبرة المطلوبة</string>
+
+
+    <string name="company">المؤسسة</string>
+    <string name="position_or_specialization">المنصب أو التخصص</string>
+    <string name="url">الرابط الإلكتروني</string>
+    <string name="country">الدولة</string>
+    <string name="city">الولاية</string>
+    <string name="started_at">منذ</string>
+    <string name="ended_at">ينتهي في</string>
+    <string name="not_ended_yet">لم تنته بعد</string>
+
+
+    <string name="tools">الأدوات</string>
+    <string name="budget">ميزانية المشروع</string>
+
+
+    <string name="both">كلاهما</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="permis">رخصة سياقة</string>
+    <string name="has_permis">يملك رخصة سياقة</string>
+    <string name="military">الخدمة العسكرية</string>
+    <string name="pass_military">أدى الخدمة العسكرية</string>
+    <string name="salary">الدخل</string>
+    <string name="min_salary">أدنى تقدير للمرتب</string>
+    <string name="max_salary">أقصى تقدير للمرتب</string>
+    <string name="required_skill">المهارة المطلوبة</string>
+    <string name="add_skill">إضافة مهارة أخرى</string>
+
+    <string name="action_sign_in_short">إنشاء حساب</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="enter_your_name">رجاءا أدخل إسمك الكامل</string>
+    <string name="validate_email">تأكد من صيغة بريدك الإلكتروني</string>
+    <string name="minimum_password">كلمة المرور قصيرة جدا ، الحد الأدنى 6 أحرف!</string>
+    <string name="auth_failed">فشل الإتصال، رجاءا تأكد من بريدك الإلكتروني أو كلمة المرور!</string>
+    <string name="need_auth">عليك تسجيل الدخول أولا</string>
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_password">كلمة العبور</string>
+    <string name="hint_name">الإسم الكامل</string>
+    <string name="btn_login">دخول</string>
+    <string name="btn_link_to_register">لست عضوا ؟ أنشئ حسابك من هنا!</string>
+    <string name="btn_link_to_login">لدي حساب. أريد تسجيل الدخول!</string>
+    <string name="btn_forgot_password">نسيت كلمة العبور السرية؟</string>
+    <string name="btn_reset_password">إعادة ضبط كلمة المرور</string>
+    <string name="btn_back">رجوع</string>
+    <string name="btn_send">إرسال</string>
+    <string name="lbl_forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="forgot_password_msg">نحتاج فقط إلى معرف بريدك الإلكتروني المسجل لإرسال تعليمات إعادة تعيين كلمة المرور الخاصة بك.</string>
+
+
+    <!-- upload photo -->
+
+    <string name="please_choose">إختر من فضلك</string>
+    <string name="choose_photo">اختيار صورة</string>
+    <string name="capture_photo">إلتقاط صورة</string>
+
+
+    <!-- jobs shower -->
+    <string name="about_job">حول هذا العرض</string>
+    <string name="details">الوصف الوظيفي</string>
+    <string name="work_system">نظام العمل</string>
+    <string name="function">الوظيفة</string>
+    <string name="workfield">قطاع التوظيف</string>
+    <string name="degree">الدرجة العلمية</string>
+    <string name="gender">النوع</string>
+    <string name="business">صاحب مؤسسة</string>
+    <string name="choose_country">إختر دولتك من فضلك</string>
+    <string name="choose_category">إختر تصنيفا</string>
+    <string name="choose_speciality">إختر التخصص</string>
+    <string name="choose_work_type">إختر نظام العمل</string>
+    <string name="choose_degree">إختر الدرجة</string>
+    <string name="write_comment">أضف تعليقا</string>
+    <string name="write_message">أكتب رسالتك</string>
+    <string name="search_category">بحث عن تصنيف ...</string>
+    <string name="about">حول</string>
+    <string name="address_and_contact">العنوان والاتصال</string>
+    <string name="education">التعليم</string>
+    <string name="university">الجامعة</string>
+    <string name="school">المعهد</string>
+    <string name="speciality">الإختصاص</string>
+    <string name="graduation">سنة التخرج</string>
+    <string name="more">المزيد</string>
+    <string name="more_informations">معلومات إضافية</string>
+    <string name="desired_salary">الراتب المطلوب</string>
+    <string name="languages">اللغات</string>
+    <string name="relation">علاقة</string>
+    <string name="relations">علاقات</string>
+    <string name="posts">المشاركات</string>
+
+
+    <string name="general_info">معلومات عامة</string>
+    <string name="contact_info">معلومات الاتصال</string>
+    <string name="address">العنوان البريدي</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="phone">الهاتف</string>
+    <string name="website">الموقع الإلكتروني</string>
+    <string name="skills">المهارات</string>
+    <string name="desired_job">الوظيفة المطلوبة</string>
+    <string name="experience">الخبرة</string>
+
+    <string name="add_work">إضافة عمل جديد</string>
+    <string name="add_experience">إضافة تجربة</string>
+
+    <string name="like">إعجاب</string>
+    <string name="liked">أعجبني</string>
+
+
+    <string name="block">حظر</string>
+
+
+    <string name="uploading_pictures">تحميل الصور</string>
+    <string name="saving_work">حفظ العمل</string>
+    <string name="solution">"تعيين كأفضل تعليق "</string>
+    <string name="report">إبلاغ عن إساءة</string>
+    <string name="report_cause">سبب التبليغ (إختياري)</string>
+    <string name="max_photos">لا يمكنك إضافة أكثر من أربع صور</string>
+    <string name="min_photos">أضف على الأقل صورة واحدة للعمل</string>
+    <string name="contains">يحتوي على</string>
+    <string name="jobs_offer">عرض عمل</string>
+    <string name="not_readed">غير مقروءة</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="rate_app">رأيك يهمنا</string>
+
+    <string name="choose_forum_first">إختر قسم الموضوع أولا </string>
+
+
+
+
+
+
+    <string name="skip">تجاهل</string>
+    <string name="start">إبدأ</string>
+
+    <string name="showcase_source_options">عبر سحب المصدر الى اليسار يمكنك مسحه , تفعيله و ايقافه او تعطيل التنبيهات الخاصة به</string>
+    <string name="showcase_works">يمكنك إضافة صور لأعمال قمت بها سابقا</string>
+    <string name="showcase_works_plus">إضافة أعمالك هنا يمكنك من إثبات خبرتك و مهاراتك و تعزيز فرص تواصل أصحاب العمل معك</string>
+    <string name="showcase_coffee">للإجابة عن جميع تساؤلاتكم</string>
+    <string name="showcase_coffee_plus">ركن للنقاشات و المواضيع المهمة بين جميع الأعضاء</string>
+
+
+    <string name="slide_1_title">شبكة التوظيف إخدمني</string>
+    <string name="slide_1_desc">وظائف, شركات, خبرات واعمال ابداعية</string>
+    <string name="slide_2_title">ملفك الشخصي</string>
+    <string name="slide_2_desc">أيسر طريقة إعداد سيرتك الذاتية</string>
+    <string name="slide_3_title">مصادر مهنية مختلفة</string>
+    <string name="slide_3_desc">اختر ما يناسبك و في اي دولة تريد</string>
+    <string name="slide_4_title">خدمات الكترونية</string>
+    <string name="slide_4_desc">كل ما يساعدك في طريقك نحو العمل</string>
+    <string name="choose_language">إختر لغة</string>
+    <string name="choose_language_level">إختر درجة إتقان اللغة</string>
+
+
+    <string name="more_comments">المزيد من التعليقات</string>
+
+</resources>

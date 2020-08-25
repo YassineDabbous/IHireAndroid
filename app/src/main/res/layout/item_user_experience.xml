@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:background="?myTheme_list_itemBackground">
+
+    <RelativeLayout
+        android:maxWidth="50dp"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+
+        <!-- the blue line -->
+        <FrameLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:id="@+id/item_line"
+            android:background="@drawable/line_bg_middle">
+
+            <!-- the semi transparent circle on the line -->
+            <View
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@drawable/online"/>
+
+        </FrameLayout>
+
+        <!-- the circular icon on the left -->
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_style"
+            android:tint="@android:color/white"
+            android:layout_marginHorizontal="8dp"
+            android:padding="4dp"
+            android:background="@drawable/online"/>
+
+    </RelativeLayout>
+
+    <!-- views at the right of the blue line -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:text="@string/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:id="@+id/item_title"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="0.5"
+                android:text="@string/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_subtitle"/>
+            <TextView
+                android:layout_weight="0.5"
+                android:textSize="12dp"
+                android:layout_gravity="end"
+                android:textAlignment="viewEnd"
+                android:text="@string/choose_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_date"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:text="@string/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_description"/>
+        <!-- other views -->
+
+    </LinearLayout>
+</LinearLayout>

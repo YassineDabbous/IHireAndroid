@@ -1,0 +1,188 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/type"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/titleWrapper"
+            style="@style/MyTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/title"
+                android:hint="@string/title"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/companyWrapper"
+            style="@style/MyTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/company"
+                android:hint="@string/company"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/positionWrapper"
+            style="@style/MyTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/position"
+                android:hint="@string/position_or_specialization"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/descriptionWrapper"
+            style="@style/MyTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/description"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:minLines="4"
+                android:gravity="top"
+                android:scrollbars="vertical"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/countryWrapper"
+                style="@style/MyTextInputLayout"
+                android:layout_weight=".4">
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/MyTextInputEditText"
+                    android:id="@+id/country"
+                    android:hint="@string/country"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:visibility="invisible"
+                android:layout_width="6dp"
+                android:layout_height="match_parent"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/cityWrapper"
+                style="@style/MyTextInputLayout"
+                android:layout_weight=".4">
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/MyTextInputEditText"
+                    android:id="@+id/city"
+                    android:hint="@string/city"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addressWrapper"
+            style="@style/MyTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/address"
+                android:hint="@string/address"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/urlWrapper"
+            style="@style/MyTextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/MyTextInputEditText"
+                android:id="@+id/url"
+                android:hint="@string/url"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/started_atWrapper"
+                style="@style/MyTextInputLayout"
+                android:layout_weight=".4">
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/MyTextInputEditText"
+                    android:id="@+id/started_at"
+                    android:hint="@string/started_at"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:visibility="invisible"
+                android:layout_width="6dp"
+                android:layout_height="match_parent"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/endDateWrapper"
+                style="@style/MyTextInputLayout"
+                android:layout_weight=".4">
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/MyTextInputEditText"
+                    android:id="@+id/ended_at"
+                    android:hint="@string/ended_at"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/untilNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/not_ended_yet"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/send"
+                android:text="@string/save" />
+            <View
+                android:visibility="invisible"
+                android:layout_width="6dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:visibility="gone"
+                android:layout_weight="0.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete"
+                android:text="@string/delete" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

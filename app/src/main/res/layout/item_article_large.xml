@@ -1,0 +1,176 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    android:background="?myThemeBackgroundSecondary">
+
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="@dimen/ic_swipe"
+            android:layout_height="@dimen/ic_swipe"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/ic_delete_white_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padd_10"
+            android:layout_toRightOf="@+id/delete_icon"
+            android:text="@string/delete"
+            android:textColor="#fff"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?myTheme_list_itemBackground">
+
+        <com.daimajia.swipe.SwipeLayout
+            android:id="@+id/swipeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="50dp"
+                android:background="?myThemePrimary"
+                android:layout_height="200dp">
+
+                <Button
+                    android:clickable="true"
+                    android:id="@+id/readedBtn"
+                    android:background="@drawable/ic_done_white_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:clickable="true"
+                    android:id="@+id/markBtn"
+                    android:background="@drawable/ic_favorite_white_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"/>
+                <Button
+                    android:clickable="true"
+                    android:id="@+id/saveBtn"
+                    android:background="@drawable/ic_share_white_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:clickable="true"
+                    android:id="@+id/reminderBtn"
+                    android:background="@drawable/ic_alarm_white_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/itemDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:src="@drawable/logo_circle"
+                    android:scaleType="fitXY"
+                    android:id="@+id/photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:contentDescription="@string/refresh" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/photo"
+                    android:layout_centerHorizontal="true"
+                    android:background="#50000000"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:textAlignment="center"
+                    android:text="@string/check_network"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/resourceTitle"
+                    android:background="#50000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/resourceLogo"
+                    android:layout_toStartOf="@+id/resourceLogo"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/action_settings"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:src="@drawable/logo_circle"
+                    android:scaleType="fitXY"
+                    android:id="@+id/resourceLogo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:background="#50000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignBaseline="@+id/resourceTitle"
+                    android:layout_alignBottom="@+id/resourceTitle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="منذ 22 ساعة"
+                    android:padding="8dp"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+
+
+            </RelativeLayout>
+
+        </com.daimajia.swipe.SwipeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/changeViewer"
+        android:title="@string/smartView"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/autoscroll"
+        android:title="@string/autoscroll"></item>
+
+    <item android:id="@+id/stopAutoScroll"
+        android:title="@string/stopAutoScroll"></item>
+
+
+    <item android:id="@+id/font_size"
+        android:title="@string/font_size"></item>
+
+    <item android:id="@+id/font"
+        android:title="@string/font"></item>
+
+
+    <item
+        android:id="@+id/article_links"
+        android:title="@string/article_links"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/fullscreen"
+        android:title="@string/fullscreen"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/copy" android:icon="@drawable/ic_content_copy_black_24dp" android:title="@string/copy_url"></item>
+    <item android:id="@+id/shareUrl" android:icon="@android:drawable/ic_menu_share" android:title="@string/shareUrl"></item>
+    <item android:id="@+id/shareScreen" android:icon="@android:drawable/ic_menu_share" android:title="@string/shareScreen"></item>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

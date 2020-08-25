@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/closedComments"
+        android:translationZ="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?myTheme_card_details_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:text="closed comments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/senderView"
+        android:translationZ="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?myTheme_senderView_background"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/comment"
+            android:background="?myTheme_senderView_background"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="5dp"
+            android:textSize="16sp"
+            android:maxLines="4"
+            android:inputType="textMultiLine"
+            android:hint="@string/write_comment" />
+
+        <ImageView
+            android:rotation="-45"
+            android:paddingBottom="6dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/send"
+            android:src="@android:drawable/ic_menu_send"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp">
+
+     <RelativeLayout
+         android:descendantFocusability="blocksDescendants"
+         android:focusableInTouchMode="true"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <androidx.cardview.widget.CardView
+             app:cardBackgroundColor="?myTheme_card_details_background"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/topicCardView"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:cardCornerRadius="10dp">
+
+             <LinearLayout
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+
+
+                 <LinearLayout
+                     android:id="@+id/headerHead"
+                     android:translationZ="1dp"
+                     android:layout_alignParentBottom="true"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+
+                     <LinearLayout
+                         android:orientation="vertical"
+                         android:layout_width="40dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="0"
+                         android:paddingTop="@dimen/padd_10">
+
+                         <ImageView
+                             android:id="@+id/like"
+                             android:layout_width="30dp"
+                             android:layout_height="30dp"
+                             android:layout_gravity="center"
+                             app:srcCompat="@drawable/liked"/>
+                         <TextView
+                             android:id="@+id/likesNbr"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginTop="5dp"
+                             android:text=""
+                             android:fontFamily="cursive"
+                             android:gravity="center"/>
+
+                     </LinearLayout>
+
+                     <RelativeLayout
+                         android:id="@+id/post"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:background="@null"
+                         >
+
+                         <TextView
+                             tools:text="Just a post example"
+                             android:id="@+id/title"
+                             android:layout_width="wrap_content"
+                             android:gravity="center_vertical"
+                             android:layout_height="wrap_content"
+                             android:minHeight="40dp"
+                             android:textColor="?myTheme_text_important"
+                             android:textSize="18sp"/>
+
+                         <View
+                             android:layout_width="match_parent"
+                             android:layout_height="0.2dp"
+                             android:id="@+id/divider"
+                             android:layout_below="@+id/title"
+                             android:background="?myTheme_list_divider"
+                             android:layout_weight="0"/>
+
+                         <LinearLayout
+                             android:orientation="horizontal"
+                             android:layout_below="@+id/divider"
+                             android:id="@+id/userPart"
+                             android:layout_width="match_parent"
+                             android:layout_marginTop="4dp"
+                             android:layout_marginRight="8dp"
+                             android:layout_marginLeft="8dp"
+                             android:layout_height="30dp">
+
+                             <ImageView
+                                 android:background="@drawable/rectangle"
+                                 android:id="@+id/poster_photo"
+                                 android:src="@drawable/logo_circle"
+                                 android:layout_width="30dp"
+                                 android:layout_height="30dp" />
+
+                             <TextView
+                                 tools:text="Mohamed Ahmed"
+                                 android:layout_margin="4dp"
+                                 android:id="@+id/uid"
+                                 android:gravity="center"
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="match_parent"
+                                 android:textColor="?myTheme_link_color"
+                                 android:textSize="12sp"/>
+
+
+                             <TextView
+                                 tools:text="3 years  ago"
+                                 android:layout_weight="1"
+                                 android:id="@+id/date"
+                                 android:gravity="end|center"
+                                 android:text=""
+                                 android:layout_width="100dp"
+                                 android:layout_height="match_parent"
+                                 android:textColor="?myTheme_list_itemDateColor"
+                                 android:textSize="12sp" />
+
+
+                         </LinearLayout>
+
+
+                     </RelativeLayout>
+
+
+                 </LinearLayout>
+
+
+                 <TextView
+                     tools:text=" \nIf you think thank you can, you will do, just start trying. \n   "
+                     android:id="@+id/description"
+                     android:layout_width="match_parent"
+                     android:textSize="16sp"
+                     android:padding="@dimen/padd_10"
+                     android:layout_height="wrap_content"
+                     android:minHeight="50dp"
+                     android:textColor="?myTheme_list_itemDescriptionColor"/>
+
+                 <ImageView
+                     android:src="@drawable/logo_circle"
+                     android:id="@+id/photo"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:maxHeight="200dp"
+                     android:visibility="gone"/>
+
+             </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+
+
+         <TextView
+             tools:visibility="visible"
+             android:visibility="gone"
+             android:id="@+id/loadMore"
+             android:layout_below="@+id/topicCardView"
+             android:gravity="center_vertical"
+             android:textAlignment="center"
+             android:text="@string/more_comments"
+             android:layout_width="match_parent"
+             android:layout_height="40dp" />
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/list"
+             android:layout_below="@+id/loadMore"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+             tools:context=".presentation.ui.fragments.ForumsFragment"
+             tools:listitem="@layout/item_comment" />
+
+     </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

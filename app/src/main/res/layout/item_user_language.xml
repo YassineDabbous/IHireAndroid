@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?myTheme_list_itemBackground">
+
+    <TextView
+        android:text="Arabic"
+        android:id="@+id/lang"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/langLevel"
+        android:layout_marginRight="25dp"
+        android:textSize="12sp"
+        android:text="Native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/deleteMe"
+        android:background="@drawable/close"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_below="@+id/lang"
+        android:id="@+id/divider"
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="@dimen/padd_10"/>
+</RelativeLayout>

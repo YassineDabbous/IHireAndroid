@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_item_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="?myThemeBackgroundSecondary"
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:id="@+id/headerCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:layout_behavior="net.ekhdemni.views.ViewScrollingViewBehavior"
+            android:background="@drawable/rounded_white_corners">
+
+
+            <TextView
+                android:id="@+id/headerTitle"
+                android:textColor="?myThemePrimary"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:id="@+id/headerDetails"
+    android:layout_below="@+id/headerTitle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <ImageView
+                android:tint="@color/green"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_loyalty"/>
+            <TextView
+                android:id="@+id/markedPosts"
+                android:textColor="@color/menu_text_no_selected"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/bookmarks"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <ImageView
+                android:tint="@color/blue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_style"/>
+            <TextView
+                android:id="@+id/allPosts"
+                android:textColor="@color/menu_text_no_selected"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/sum"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <ImageView
+                android:tint="@color/material_yellow"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_assignment"/>
+            <TextView
+                android:id="@+id/unreadPosts"
+                android:textColor="@color/menu_text_no_selected"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/not_readed"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <ImageView
+                android:tint="@color/material_red"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_notifications_active_white_24dp"/>
+            <TextView
+                android:id="@+id/unseenPosts"
+                android:textColor="@color/menu_text_no_selected"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/new_opportunity"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/chevron_up_circle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="4dp"
+        android:tint="?myTheme_profile_more_button_color"/>
+</LinearLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/appbar"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center"
+        android:id="@+id/itemsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:background="?myThemeBackgroundSecondary"
+        tools:listitem="@layout/item_article_large"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/emptyView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/descriptionEmptyResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descriptionEmptyResult"
+            android:textAlignment="center"
+            android:textColor="?myTheme_text_error" />
+
+        <Button
+            android:id="@+id/refreshBtn"
+            android:layout_margin="20dp"
+            android:text="@string/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

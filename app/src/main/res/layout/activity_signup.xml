@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".presentation.ui.activities.auth.SignupActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/appname"
+            android:text="@string/app_name"
+            android:fontFamily="cursive"
+            android:textColor="?myTheme_text_important"
+            android:textSize="52dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MyTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                style="@style/MyTextInputEditText"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MyTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                style="@style/MyTextInputEditText"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/MyTextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                style="@style/MyTextInputEditText"
+                android:focusableInTouchMode="true"
+                android:hint="@string/hint_password"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <net.ekhdemni.presentation.ui.views.Select
+                android:layout_weight="0.5"
+                android:popupBackground="?myThemeBackgroundColored"
+                android:background="@drawable/bg_edit_text"
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="40dp"/>
+
+            <net.ekhdemni.presentation.ui.views.Select
+                android:layout_weight="0.5"
+                android:popupBackground="?myThemeBackgroundColored"
+                android:background="@drawable/bg_edit_text"
+                android:id="@+id/speciality"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <CheckBox
+                android:id="@+id/accounttype"
+                android:textColor="?myTheme_text_important"
+                android:text="@string/business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <net.ekhdemni.presentation.ui.views.Select
+                android:popupBackground="?myThemeBackgroundColored"
+                android:background="@drawable/bg_edit_text"
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sign_up_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:textColor="?myTheme_button_primary_text_color"
+            android:text="@string/action_sign_in_short"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textColor="?myTheme_button_secondary_text_color"
+            android:background="?myTheme_button_secondary_background"
+            android:id="@+id/btn_reset_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/btn_forgot_password"
+            android:textAllCaps="false"/>
+
+        <!-- UserLink to Login Screen -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/btn_link_to_login"
+            android:textAllCaps="false"
+            android:background="?myTheme_button_transparent_background"
+            android:textColor="?myTheme_button_transparent_text_color"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

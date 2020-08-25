@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ekhdemni</string>
+    <string name="slogon">Le travail vous cherchez!</string>
+
+    <string name="menu_item_1">Réseau</string>
+    <string name="menu_item_4">Nouvelles</string>
+    <string name="menu_item_2">Sources</string>
+    <string name="menu_item_3">Profil</string>
+    <string name="menu_item_5">Services</string>
+
+    <string name="nativeView">Navigateur normal</string>
+    <string name="smartView">Navigateur Web</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="article_links">Liens de fichiers</string>
+    <string name="fullscreen">Maximiser l\'écran</string>
+
+
+    <string name="feed_title">Titre</string>
+    <string name="website_or_feed">(Nom ou URL)</string>
+    <string name="feed_url">URL source</string>
+    <string name="optional">(Facultatif)</string>
+    <string name="feed_search">Rechercher des sources</string>
+    <string name="feed_save">Ajouter comme source</string>
+
+
+    <string name="error">Erreur</string>
+    <string name="no_result">Aucun résultat trouvé</string>
+
+    <string name="descriptionEmptyResult">L\'endroit semble être vide! Avez-vous perdu le chemin?</string>
+
+    <string name="via_application">via l\'application Ekhdemni</string>
+    <string name="services_header">"Services d'Ekhdemni "</string>
+
+    <string name="empty">Cette section est vide</string>
+    <string name="no_messages">Pas de messages entre vous, soyez proactif!</string>
+    <string name="no_services_for_country">Nous n\'avons actuellement aucun service pour votre pays. Veuillez actualiser la page ultérieurement.</string>
+
+    <string name="services_description">Parce que le professionalism cherche à vous servir</string>
+    <string name="refresh">Actualiser</string>
+    <string name="enable_resource">Source activée</string>
+    <string name="disable_resource">Source désactivé</string>
+    <string name="enable_notification_resource">Les notifications ont été activées</string>
+    <string name="disable_notification_resource">Notifications désactivées</string>
+    <string name="are_you_sure">Êtes-vous sûr?</string>
+    <string name="use_shaking_next_time">Vous pouvez secouer votre téléphone pour mettre à jour la prochaine fois</string>
+    <string name="network_error">Une erreur de communication s\'est produite</string>
+    <string name="network_settings">Paramètres de connexion</string>
+    <string name="next">Suivant</string>
+    <string name="exit">Sortie</string>
+    <string name="jobs">Emplois</string>
+    <string name="profiles">Membres</string>
+    <string name="works">Galerie</string>
+    <string name="coffee">Café</string>
+    <string name="conversations">Discussions</string>
+
+    <string name="useful_apps">Applications utiles</string>
+    <string name="posts_number">Nombre de postes</string>
+    <string name="countries">États</string>
+    <string name="bookmarks">Les favoris</string>
+    <string name="all">Toutes les annonces</string>
+    <string name="sum">Total des annonces</string>
+    <string name="my_activities">Mon activité</string>
+    <string name="help">Aide</string>
+    <string name="wait">Attends ...</string>
+    <string name="authentication">authentification</string>
+    <string name="posts_list">Menu général</string>
+    <string name="tags">Catégories</string>
+    <string name="new_opportunity">" opportunité"</string>
+    <string name="search">Rechercher</string>
+    <string name="check_network">Aucune connexion de données! Vérifiez le réseau.</string>
+    <string name="copy_url">Copier le lien</string>
+    <string name="our_facebook_page">Notre page Facebook</string>
+    <string name="shareUrl">Partager le lien</string>
+    <string name="shareScreen">Partager l\'article</string>
+    <string name="share_via">Partager via</string>
+    <string name="shared_via">Partagé avec l\'application </string>
+    <string name="url_copied">Lien copié</string>
+    <string name="connect_him">Lui contacter</string>
+    <string name="follow">S\'abonner</string>
+    <string name="unfollow">Annuler Continuer</string>
+    <string name="want_apply_for">Voulez-vous postuler pour le poste?</string>
+
+    <string name="autoscroll">Navigation automatique</string>
+    <string name="stopAutoScroll">Désactiver la navigation automatique</string>
+    <string name="font_size">Taille de la police</string>
+    <string name="font">Type de police</string>
+    <string name="pick_one">Choisir une</string>
+
+
+
+    <string name="delete">Effacer</string>
+    <string name="save">Enregistrer</string>
+    <string name="accept">Accepter</string>
+    <string name="reject">Refuser</string>
+
+    <string name="skip">Ignorer</string>
+    <string name="start">Commencer</string>
+
+    <string name="slide_1_title">Un Réseau d\'emploi</string>
+    <string name="slide_1_desc">"Emplois, entreprises, expériences et travaux créatifs "</string>
+    <string name="slide_2_title">Votre profil</string>
+    <string name="slide_2_desc">Le moyen le plus simple de préparer votre CV</string>
+    <string name="slide_3_title">Diverses sources professionnelles</string>
+    <string name="slide_3_desc">"Choisissez ce qui vous convient et dans quel pays vous voulez "</string>
+    <string name="slide_4_title">"Services électroniques "</string>
+    <string name="slide_4_desc">Tout ce qui vous aide sur le chemin du travail</string>
+
+
+    <string name="pref_fonts_type">Type de ligne</string>
+    <string name="title_fonts_type">Type de ligne</string>
+    <string name="summary_fonts_type">Sélectionnez le type de police</string>
+
+    <string name="pref_fonts_size">Taille de la police</string>
+    <string name="title_fonts_size">Taille de la police</string>
+    <string name="summary_fonts_size">Sélectionnez la taille de la police</string>
+
+    <string name="pref_title_ringtone">Tonalité</string>
+    <string name="pref_ringtone_silent">Silencieux</string>
+
+    <string name="default_gallery_storage_path">/ekhdemni</string>
+    <string name="default_gallery_storage">Fichiers téléchargés</string>
+    <string name="title_auto_upload">Mise à jour automatique</string>
+    <string name="summary_upload_over_wifi">Défi des données lorsque le WIFI est uniquement disponible</string>
+
+    <string name="title_notifications_delay">Périodes de mise à jour</string>
+    <string name="summary_notifications_delay">Sélectionnez la période après chaque mise à jour</string>
+
+    <string name="pref_title_notifications">Alertes</string>
+    <string name="pref_title_general">Général</string>
+    <string name="summary_choose_ringtone">Sélectionnez la tonalité d\'alarme</string>
+    <string name="pref_header_about">Qui sommes-nous</string>
+    <string name="pref_header_font">"Police de caractère "</string>
+    <string name="summary_about">Qui sommes nous</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Avez-vous des questions? Nous sommes heureux de vous aider!</string>
+    <string name="title_send_feedback">Envoyez vos commentaires</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">Afficher les questions fréquemment posées</string>
+    <string name="url_faq">http://web.ekhdemni.net/privacy-policy/</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="url_privacy">http://ekhdemni.net/privacy-policy/</string>
+    <string name="title_terms">Termes et conditions</string>
+    <string name="url_terms">http://web.ekhdemni.net/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Sélectionnez votre programme de messagerie</string>
+    <string name="title_gallery_storage">Lieu de stockage</string>
+    <string name="title_notification_enable">Activer les alertes</string>
+    <string name="title_vibrate">Des vibrations</string>
+    <string name="summary_vibrate">Secouer lorsque les alertes arrivent</string>
+
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_notifications_delay">key_notifications_delay</string>
+    <string name="key_notifications_enable">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_font_type">key_font_type</string>
+    <string name="key_font_size">key_font_size</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <string name="title">Titre</string>
+    <string name="description">Description</string>
+    <string name="min_experience">Années d\'expérience requises</string>
+
+    <string name="both">Les deux</string>
+    <string name="male">Mâle</string>
+    <string name="female">Femme</string>
+    <string name="permis">Permis de conduire</string>
+    <string name="has_permis">Il a un permis de conduire</string>
+    <string name="military">Service militaire</string>
+    <string name="pass_military">Service militaire</string>
+    <string name="salary">Revenu</string>
+    <string name="min_salary">Estimation du salaire le plus bas</string>
+    <string name="max_salary">Estimation du salaire maximum</string>
+    <string name="required_skill">Compétence requise</string>
+    <string name="add_skill">Ajouter une autre compétence</string>
+
+    <string name="action_sign_in_short">création d\'un compte</string>
+    <string name="email">Email</string>
+    <string name="enter_your_name">Veuillez entrer votre nom complet</string>
+    <string name="validate_email">Vérifiez votre email</string>
+    <string name="minimum_password">Le mot de passe est trop court, minimum 6 caractères!</string>
+    <string name="auth_failed">Échec de la connexion, s\'il vous plaît assurez-vous de votre email ou mot de passe!</string>
+    <string name="need_auth">Vous devez d\'abord vous connecter</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_name">le nom complet</string>
+    <string name="btn_login">Se connecter</string>
+    <string name="btn_link_to_register">Pas un membre? Créez votre compte ici!</string>
+    <string name="btn_link_to_login">J\'ai un compte Je veux m\'inscrire!</string>
+    <string name="btn_forgot_password">Mot de passe oublié?</string>
+    <string name="btn_reset_password">Réinitialiser le mot de passe</string>
+    <string name="btn_back">Retour</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="lbl_forgot_password">Mot de passe oublié?</string>
+    <string name="forgot_password_msg">Nous avons seulement besoin de votre adresse e-mail enregistrée pour envoyer vos instructions de réinitialisation de mot de passe.</string>
+
+
+
+
+    <string name="please_choose">Veuillez sélectionner</string>
+    <string name="choose_photo">Choisissez une photo</string>
+    <string name="capture_photo">prendre une photo</string>
+
+
+
+    <string name="about_job">A propos de cette offre</string>
+    <string name="details">Description du poste</string>
+    <string name="work_system">Système de travail</string>
+    <string name="function">Fonction</string>
+    <string name="workfield">Secteur de l\'emploi</string>
+    <string name="degree">degré scientifique</string>
+    <string name="gender">Type</string>
+    <string name="business">Recruteur</string>
+    <string name="choose_country">Veuillez sélectionner votre pays</string>
+    <string name="choose_category">Categorie</string>
+    <string name="choose_speciality">Choisissez votre spécialité</string>
+    <string name="choose_work_type">Sélectionnez le système du travail</string>
+    <string name="choose_degree">Sélectionnez le grade</string>
+    <string name="write_comment">Ajouter un commentaire</string>
+    <string name="write_message">Écrivez votre message</string>
+    <string name="search_category">Rechercher une catégorie ...</string>
+    <string name="about">À propos de</string>
+    <string name="address_and_contact">Adresse et contact</string>
+    <string name="education">L\'éducation</string>
+    <string name="university">Université</string>
+    <string name="school">Institut</string>
+    <string name="speciality">Spécialité</string>
+    <string name="graduation">Année d\'obtention</string>
+    <string name="more">Plus</string>
+    <string name="more_informations">Informations complémentaires</string>
+    <string name="desired_salary">Salaire requis</string>
+    <string name="languages">Langues</string>
+    <string name="relation">Relation</string>
+    <string name="relations">Relations</string>
+    <string name="posts">Postes</string>
+
+
+    <string name="general_info">Informations générales</string>
+    <string name="contact_info">Informations de contact</string>
+    <string name="address">Adresse</string>
+    <string name="birthday">Date de naissance</string>
+    <string name="phone">Téléphone</string>
+    <string name="website">Site Web</string>
+    <string name="skills">Compétences</string>
+    <string name="desired_job">Travail requis</string>
+    <string name="experience">Expérience</string>
+
+    <string name="add_work">Ajouter un œuvre</string>
+
+    <string name="like">j\'aime</string>
+    <string name="liked">je n\'aime plus</string>
+
+
+    <string name="block">Bloquer</string>
+
+
+    <string name="uploading_pictures">Téléchargement de photos</string>
+    <string name="saving_work">Enregistrement du travau</string>
+    <string name="solution">Meilleur commentaire</string>
+    <string name="report">Signaler un abus</string>
+    <string name="report_cause">"Raison de la déclaration (facultatif) "</string>
+    <string name="max_photos">Vous ne pouvez pas ajouter plus de quatre photos</string>
+    <string name="min_photos">Ajouter au moins une photo</string>
+    <string name="contains">contient</string>
+    <string name="jobs_offer">offres d\'emploi</string>
+    <string name="not_readed">Non lu</string>
+    <string name="create_job">Publier une offre</string>
+    <string name="share_app">Partager l\'application</string>
+    <string name="rate_app">"évaluez nous "</string>
+    <string name="pref_languages">Langage</string>
+    <string name="summary_languages">Choisissez la langage de l\'application</string>
+    <string name="key_languages">key_languages</string>
+
+
+    <string name="choose_forum_first">choisissez d\'abord le sujet du post</string>
+    <string name="showcase_coffee">Pour répondre à toutes vos questions</string>
+    <string name="showcase_coffee_plus">Un forum de discussion et des sujets importants pour tous les membres</string>
+    <string name="showcase_source_options">En faisant glisser la source vers la gauche, vous pouvez supprimer, activer et arrêter ou désactiver ses alertes.</string>
+    <string name="showcase_works">Vous pouvez ajouter des photos à vos travaux précédents</string>
+    <string name="showcase_works_plus">Ajouter votre travail ici vous permet de démontrer votre expertise et vos compétences et d\'améliorer les possibilités pour les employeurs de communiquer avec vous.</string>
+    <string name="update_profile">Mettre à jour</string>
+    <string name="choose_language">choisissze une langage</string>
+    <string name="choose_language_level">choisissze le niveau du langage</string>
+    <string name="error_images_upload_failed">Échec de téléchargement de photos, souhaitez-vous réessayer?</string>
+    <string name="error_request_failed">"Échec de la connexion, voulez-vous réessayer? "</string>
+
+
+    <string name="more_comments">Plus de commentaires</string>
+    <string name="alerts">Alertes</string>
+    <string name="followers">Abonnés</string>
+    <string name="be_the_first">Soyez le premier</string>
+    <string name="position_or_specialization">Position ou Spécialisation</string>
+    <string name="not_ended_yet">pas encore fini</string>
+    <string name="ended_at">terminé à</string>
+    <string name="company">Entreprise</string>
+    <string name="city">Ville</string>
+    <string name="url">Url</string>
+    <string name="started_at">Commencé à</string>
+    <string name="country">Pays</string>
+    <string name="resume">CV</string>
+    <string name="add_experience">Ajouter une expérience</string>
+    <string name="projects">Projets</string>
+    <string name="tools">Outils</string>
+    <string name="budget">Budget</string>
+
+</resources>

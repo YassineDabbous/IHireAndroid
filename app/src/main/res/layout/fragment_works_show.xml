@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?myThemeBackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".presentation.ui.fragments.WorksShowFragment">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp">
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/layoutDots"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dots_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:background="?myTheme_work_bar_background"
+                android:orientation="horizontal"
+                android:layout_below="@+id/divider"
+                android:text="@string/slogon"
+                android:id="@+id/userPart"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:id="@+id/poster_photo"
+                    android:src="@drawable/logo_circle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:id="@+id/uid"
+                    tools:text="@string/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/views"
+                        android:gravity="right|center_vertical"
+                        tools:text="45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="?myTheme_text_secondary"
+                        android:textSize="14sp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <ImageView
+                        android:tint="?myTheme_text_secondary"
+                        android:src="@android:drawable/ic_menu_view"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:id="@+id/likes"
+                        android:gravity="end|center_vertical"
+                        tools:text="66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="?myTheme_text_secondary"
+                        android:textSize="14sp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <ImageView
+                        android:id="@+id/likesBtn"
+                        android:layout_margin="6dp"
+                        android:gravity="center_vertical"
+                        app:srcCompat="@drawable/heart_outline"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="5dp"
+                    tools:text="@string/title"
+                    android:textColor="?myTheme_text_important"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    tools:text="@string/description"
+                    android:textColor="?myTheme_list_itemDescriptionColor"
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14sp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/date"
+                    tools:text="2 months ago"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="?myTheme_list_itemDateSecondColor"
+                    android:textSize="12sp"
+                    android:gravity="left|center_vertical" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/floatLayout"
+    >
+
+
+    <View
+        android:id="@+id/transparentView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:background="@drawable/bubble"
+        android:paddingTop="10dp"
+        android:layout_margin="4dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/transparentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="8dp"
+            android:id="@+id/itemsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            />
+
+
+
+    </RelativeLayout>
+
+    
+</RelativeLayout>

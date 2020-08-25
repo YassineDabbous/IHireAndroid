@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@drawable/rounded_corners"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/refreshBtn"
+            android:drawableTint="?myTheme_widget_icon_color"
+            android:background="@drawable/refresh_png"
+            android:layout_width="40dp"
+            android:layout_height="@dimen/widget_title_min_height"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out" />
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:id="@+id/widgetTitleLabel"
+            android:background="@drawable/rounded_corners"
+            android:layout_height="@dimen/widget_title_min_height"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        >
+        <ListView
+            android:background="?myTheme_widget_list_background"
+            android:id="@+id/widgetListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="1dp"
+            android:divider="?myTheme_list_divider"
+            tools:listitem="@layout/collection_widget_list_item"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

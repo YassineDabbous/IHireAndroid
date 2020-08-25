@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?myThemeBackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <!-- android:background="@drawable/bg_parent_rounded_corner"
+    android:layout_margin="4dp" -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/liked"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textStyle="bold"
+            android:text="@string/slogon"
+            android:maxLines="1"
+            android:minLines="1"
+            android:layout_margin="16dp"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/divider"
+        android:background="?myTheme_list_divider"
+        android:layout_weight="0"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comments_recycler_view"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item_comment"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:id="@+id/divider2"
+        android:background="?myTheme_list_divider"
+        android:layout_weight="0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/commentEdit"
+            android:background="@null"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:maxLines="4"
+            android:inputType="textMultiLine"
+            android:gravity="center_vertical"
+            android:hint="@string/write_comment" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/send"
+            android:src="@drawable/ic_menu_send"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+</LinearLayout>

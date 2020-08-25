@@ -1,0 +1,278 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">?myThemePrimary</item>
+        <item name="colorPrimaryDark">?myThemePrimaryDark</item>
+        <item name="colorAccent">?myThemeAccent</item>
+        <item name="android:textColor">?myTheme_textColor</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+        <!--<item name="android:background">?myThemeBackground</item>-->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_day</item>
+
+        <!--<item name="editTextStyle">@style/Edit</item>-->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:fontFamily">@font/cairo</item>
+        <item name="fontFamily">@font/cairo</item>
+
+
+        <item name="myTheme_list_divider">@color/grey_lite2</item>
+        <item name="myTheme_profile_more_button_color">@color/grey</item>
+        <item name="myThemePlaceholderBackground">@color/grey_lite</item>
+        <item name="myThemePlaceholderBackgroundRounded">@color/grey_lite</item>
+
+        <item name="myTheme_profile_picture_background">@color/transparent</item>
+
+        <item name="myTheme_list_itemDateSecondColor">@color/green</item>
+
+        <item name="myTheme_message_sent_text_background">@color/green</item>
+
+        <item name="myTheme_link_color">@color/link</item>
+        <item name="myTheme_head_text_background">@color/brand_red</item>
+        <item name="myTheme_head_text_color">@color/white</item>
+
+
+        <item name="myTheme_icon_color">?myThemePrimary</item>
+        <item name="myTheme_online">@color/green</item>
+        <item name="myTheme_solution">@color/green</item>
+        <item name="myTheme_list_item_info_icon_color">@color/green</item>
+
+        <item name="myThemeFragmentPadding">@dimen/fragment_horizontal_margin</item>
+
+        <item name="myTheme_spinner_background">?myThemeAccent</item>
+        <item name="myTheme_button_primary_background">?myThemePrimary</item>
+        <item name="myTheme_button_info_background">@color/blue</item>
+        <item name="myTheme_button_success_background">@color/green</item>
+        <item name="myTheme_button_secondary_background">@color/white</item>
+        <item name="myTheme_button_transparent_background">@color/transparent</item>
+        <item name="myTheme_button_primary_text_color">@color/white</item>
+        <item name="myTheme_button_secondary_text_color">?myThemePrimary</item>
+        <item name="myTheme_button_transparent_text_color">?myThemePrimary</item>
+
+        <item name="myTheme_widget_background">@color/transparent_light</item>
+        <item name="myTheme_widget_icon_color">?myThemePrimary</item>
+        <item name="myTheme_widget_border_color">?myThemePrimary</item>
+        <item name="myTheme_widget_list_background">@color/transparent</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.Day">
+        <item name="myThemePrimary">@color/colorPrimary</item>
+        <item name="myThemePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="myThemeAccent">@color/colorAccent</item>
+
+        <item name="myTheme_textColor">@color/dark</item>
+        <item name="myThemeBackground">@color/grey_lite</item>
+        <item name="myThemeBackgroundSecondary">@color/white</item>
+        <item name="myThemeBackgroundColored">?myThemePrimary</item>
+        <item name="myTheme_list_itemBackground">@color/white</item>
+        <item name="myTheme_list_itemTitleColor">@color/list_item_title_color</item>
+        <item name="myTheme_list_itemTitleColorInverse">@color/white</item>
+        <item name="myTheme_list_itemDescriptionColor">@color/list_item_description_color</item>
+        <item name="myTheme_list_itemDateColor">@color/list_item_date_color</item>
+        <item name="myTheme_list_itemButtonColor">@color/grey</item>
+
+        <item name="myTheme_profile_background">@color/grey_lite2</item>
+
+        <item name="myTheme_work_bar_background">@color/white</item>
+
+        <item name="myThemeToolbarContainerBackground">@color/white</item>
+        <item name="myTheme_toolbar_background">@color/white</item>
+        <item name="myTheme_toolbar_icon_color">?myThemePrimary</item>
+        <item name="myTheme_toolbar_icon_secondary_color">@color/black</item>
+        <item name="myTheme_toolbar_border_color">?myThemePrimary</item>
+        <item name="myTheme_searchView_background">@color/white</item>
+
+        <item name="myTheme_navigationViewBottom_background">@color/white</item>
+        <item name="myTheme_navigationView_background">@color/white</item>
+        <item name="myTheme_navigationView_icon_color">?myThemePrimary</item>
+        <item name="myTheme_navigationView_text_color">@color/dark</item>
+        <item name="myTheme_navigationView_header_icon_color">@color/white</item>
+        <item name="myTheme_navigationView_header_text">@color/white</item>
+
+        <item name="myTheme_card_details_background">@color/white</item>
+        <item name="myTheme_card_border">@color/grey</item>
+        <item name="myTheme_senderView_background">@color/white</item>
+
+        <item name="myTheme_text_error">?myThemePrimary</item>
+        <item name="myTheme_text_important">?myThemePrimary</item>
+        <item name="myTheme_text_secondary">@color/grey</item>
+    </style>
+
+    <style name="AppTheme.Dark">
+        <item name="myThemePrimary">@color/colorPrimary</item>
+        <item name="myThemePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="myThemeAccent">@color/colorAccent</item>
+
+        <item name="myTheme_textColor">@color/white</item>
+        <item name="myThemeBackground">@color/dark</item>
+        <item name="myThemeBackgroundSecondary">@color/dark_lite</item>
+        <item name="myThemeBackgroundColored">@color/dark</item>
+        <item name="myTheme_list_itemBackground">@color/dark</item>
+        <item name="myTheme_list_itemTitleColor">@color/list_item_title_color_night</item>
+        <item name="myTheme_list_itemTitleColorInverse">@color/white</item>
+        <item name="myTheme_list_itemDescriptionColor">@color/list_item_description_color_night</item>
+        <item name="myTheme_list_itemDateColor">@color/list_item_date_color_night</item>
+        <item name="myTheme_list_itemButtonColor">@color/grey</item>
+
+        <item name="myTheme_profile_background">?myThemeBackgroundSecondary</item>
+
+        <item name="myTheme_work_bar_background">@color/black</item>
+
+        <item name="myThemeToolbarContainerBackground">@color/dark</item>
+        <item name="myTheme_toolbar_background">@color/dark</item>
+        <item name="myTheme_toolbar_icon_color">?myThemePrimary</item>
+        <item name="myTheme_toolbar_icon_secondary_color">@color/white</item>
+        <item name="myTheme_toolbar_border_color">?myThemePrimary</item>
+        <item name="myTheme_searchView_background">@color/dark</item>
+
+        <item name="myTheme_navigationViewBottom_background">@color/dark</item>
+        <item name="myTheme_navigationView_background">@color/dark</item>
+        <item name="myTheme_navigationView_icon_color">?myThemePrimary</item>
+        <item name="myTheme_navigationView_text_color">@color/white</item>
+        <item name="myTheme_navigationView_header_icon_color">@color/dark</item>
+        <item name="myTheme_navigationView_header_text">@color/dark</item>
+
+        <item name="myTheme_card_details_background">@color/dark</item>
+        <item name="myTheme_card_border">@color/grey</item>
+        <item name="myTheme_senderView_background">@color/dark</item>
+
+        <item name="myTheme_text_error">?myThemePrimary</item>
+        <item name="myTheme_text_important">?myThemePrimary</item>
+        <item name="myTheme_text_secondary">@color/grey</item>
+    </style>
+
+
+
+    <style name="AppTheme.Transparent">
+        <item name="myThemePrimary">@color/colorPrimary</item>
+        <item name="myThemePrimaryDark">@color/colorPrimaryDark</item>
+        <item name="myThemeAccent">@color/colorAccent</item>
+
+        <item name="myTheme_textColor">@color/white</item>
+        <item name="myThemeBackground">@color/transparent_dark</item>
+        <item name="myThemeBackgroundSecondary">@color/transparent_light</item>
+        <item name="myThemeBackgroundColored">@color/transparent_dark</item>
+        <item name="myTheme_list_itemBackground">@color/transparent_dark</item>
+        <item name="myTheme_list_itemTitleColor">@color/list_item_title_color_night</item>
+        <item name="myTheme_list_itemTitleColorInverse">@color/white</item>
+        <item name="myTheme_list_itemDescriptionColor">@color/list_item_description_color_night</item>
+        <item name="myTheme_list_itemDateColor">@color/list_item_date_color_night</item>
+        <item name="myTheme_list_itemButtonColor">@color/grey</item>
+
+        <item name="myTheme_profile_background">?myThemeBackgroundSecondary</item>
+
+        <item name="myTheme_work_bar_background">@color/transparent_dark</item>
+
+        <item name="myThemeToolbarContainerBackground">@color/transparent_dark</item>
+        <item name="myTheme_toolbar_background">@color/transparent_dark</item>
+        <item name="myTheme_toolbar_icon_color">?myThemePrimary</item>
+        <item name="myTheme_toolbar_icon_secondary_color">@color/white</item>
+        <item name="myTheme_toolbar_border_color">?myThemePrimary</item>
+        <item name="myTheme_searchView_background">@color/transparent_dark</item>
+
+        <item name="myTheme_navigationViewBottom_background">@color/transparent_light</item>
+        <item name="myTheme_navigationView_background">@color/transparent_light</item>
+        <item name="myTheme_navigationView_icon_color">?myThemePrimary</item>
+        <item name="myTheme_navigationView_text_color">@color/white</item>
+        <item name="myTheme_navigationView_header_icon_color">@color/dark</item>
+        <item name="myTheme_navigationView_header_text">@color/dark</item>
+
+        <item name="myTheme_card_details_background">@color/transparent_dark</item>
+        <item name="myTheme_card_border">@color/grey</item>
+        <item name="myTheme_senderView_background">@color/transparent_dark</item>
+
+        <item name="myTheme_text_error">?myThemePrimary</item>
+        <item name="myTheme_text_important">?myThemePrimary</item>
+        <item name="myTheme_text_secondary">@color/grey</item>
+    </style>
+
+
+
+
+
+    <style name="Btn" parent="Widget.MaterialComponents.Button" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="Btn.BtnPrimary">
+        <item name="colorButtonNormal">?myTheme_button_primary_background</item>
+    </style>
+    <style name="Btn.BtnSuccess">
+        <item name="colorButtonNormal">?myTheme_button_success_background</item>
+    </style>
+
+
+    <style name="BtnSave" parent="Widget.MaterialComponents.Button.Icon" >
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@color/green</item>
+        <!--<item name="android:text">@string/save</item>-->
+        <item name="icon">@drawable/content_save_edit</item>
+        <item name="iconGravity">textStart</item>
+    </style>
+
+    <style name="MyTextInputLayoutFilled" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?myThemeBackgroundSecondary</item>
+        <item name="android:layout_marginBottom">10dp</item>-->
+    </style>
+    <style name="MyTextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <!-- <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:layout_height">@dimen/edittext_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/floating_hint_margin</item>
+        <item name="android:paddingRight">@dimen/padd_10</item>
+        <item name="android:paddingLeft">@dimen/padd_10</item>
+        <item name="android:textColor">@color/deep_dark</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColorHighlight">@color/colorPrimary</item>-->
+    </style>
+
+
+    <style  name="bold" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+
+
+</resources>
